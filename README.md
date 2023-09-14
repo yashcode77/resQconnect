@@ -1,31 +1,3 @@
-# React & Tailwind CSS Starter Pack
+Problem Statement Title: An application under which all rescue agencies are registered and which can display the location of other rescue relief agencies during natural/man-made calamities
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
-
-## Usage
-
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
-
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
-
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
-
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
-
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.# resQconnect
+Description: To build such an application. there is need to create a central database where all rescue agencies can register their information, including their location, contact details, and areas of expertise. This information could be entered manually by agency administrators, or automated using GPS or other location tracking technologies. Once the database is populated, the application would need to be designed to display this information in an easy-to-use interface: It could include a map that shows the locations of all registered rescue agencies, along with filters that allow users to narrow down the results based on specific criteria, such as the type of disaster, the resources available, or the time since the last reported activity. In addition to displaying the locations of rescue agencies, the application could also include features for communication and collaboration. For example, agencies could send alerts or requests for assistance to each other directly through the application, or collaborate on shared resources such as medical equipment or transportation. Security and privacy would be major considerations in building such an application. It would be important to ensure that only authorized users have access to the database, and that sensitive information such as personal contact details is protected. Overall, building an application that allows rescue agencies to coordinate their efforts and provide aid more effectively could be a valuable tool for responding to natural or man-made disasters.
