@@ -5,10 +5,13 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
+import Signup from "./components/auth/Signup";
 import Contact from "./components/Contact";
 import Agencies from "./components/Agencies";
 import About from "./components/About";
 import Profile from "./components/profile/Profile";
+import Newhome from "./components/Newhome";
+import Alerts from "./components/Alerts";
 
 const router = createBrowserRouter([
   {
@@ -24,10 +27,6 @@ const router = createBrowserRouter([
         element: <Agencies />
       },
       {
-        path: '/login',
-        element: <Login />
-      },
-      {
         path: 'contact',
         element: <Contact />
       },
@@ -38,12 +37,24 @@ const router = createBrowserRouter([
       {
         path: 'profile',
         element: <Profile />
+      },
+      {
+        path: 'alerts',
+        element: <Alerts />
       }
     ]
   },
   {
     path: '/login',
-    element: <Login />,
+    element: <Login />
+  },
+  {
+    path: '/signup',
+    element: <Signup />
+  },
+  {
+    path: '/newhome',
+    element: <Newhome />
   }
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));

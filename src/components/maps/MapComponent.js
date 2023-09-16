@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Alert() {
+function MapComponent() {
   return (
     <div>
-      <p>Alert 1</p>
+      map
     </div>
   )
 }
 
-export default Alert
+export default MapComponent

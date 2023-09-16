@@ -12,7 +12,7 @@ const MapboxMap = () => {
         const map = new mapboxgl.Map({
             container: 'map', // container ID
             style: 'mapbox://styles/mapbox/streets-v12', // style URL
-            center: [73.7898, 19.9975], // starting position [lng, lat]
+            center: [72.8777, 19.0760], // starting position [lng, lat]
             zoom: 11, // starting zoom
         });
 
@@ -31,12 +31,12 @@ const MapboxMap = () => {
     }, []);
 
     return (
-        <div>
+        <div className='h-full'>
             <SearchBox accessToken={token}
                 map={map}
             />
 
-            <div id="map" style={{ width: '900px', height: '500px' }}></div>
+            <div id="map" style={{ width: '1600px', height: '700px' }}></div>
 
         </div>
 
