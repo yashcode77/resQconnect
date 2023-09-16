@@ -12,6 +12,7 @@ import About from "./components/About";
 import Profile from "./components/profile/Profile";
 import Newhome from "./components/Newhome";
 import Alerts from "./components/Alerts";
+import ChatBox from "./components/ChatBox";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: 'alerts',
         element: <Alerts />
+      },
+      {
+        path: 'chat',
+        element: <ChatBox />
       }
     ]
   },

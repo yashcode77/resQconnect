@@ -8,11 +8,12 @@ const Navbar = () => {
     <div className="flex justify-between p-5 bg-blue-900 text-white items-center">
       <div className='flex gap-4 items-center'>
         <h1 className='text-2xl font-semibold text-red-300 cursor-pointer'><Link to="/">resQconnect</Link></h1>
-        <ul className="cursor-pointer"><Link to="/">Home</Link></ul>
-        <ul className="cursor-pointer"><Link to="/agencies">Agencies</Link></ul>
-        <ul className="cursor-pointer"><Link to="/alerts">Alerts</Link></ul>
-        <ul className="cursor-pointer"><Link to="/about">About</Link></ul>
-        <ul className="cursor-pointer"><Link to="/contact">Contact us</Link></ul>
+        <ul className="cursor-pointer hover:text-red-400"><Link to="/">Home</Link></ul>
+        <ul className="cursor-pointer hover:text-red-400"><Link to="/agencies">Agencies</Link></ul>
+        <ul className="cursor-pointer hover:text-red-400"><Link to="/alerts">Alerts</Link></ul>
+        <ul className="cursor-pointer hover:text-red-400"><Link to="/about">About</Link></ul>
+        <ul className="cursor-pointer hover:text-red-400"><Link to="/contact">Contact us</Link></ul>
+        <ul className="cursor-pointer hover:text-red-400"><Link to="/chat">Chat</Link></ul>
       </div>
       <div>
         <Link to="/profile">
