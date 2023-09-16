@@ -1,5 +1,5 @@
 import "./App.css";
-import {Route, Routes} from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Login from "./components/Login"
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -12,9 +12,9 @@ function App() {
     <div className="flex flex-col min-h-screen ">
       <Navbar />
       <Outlet />
-      <Footbar />
+      {/* <Footbar /> */}
     </div>
-    
+
   );
 }
 
