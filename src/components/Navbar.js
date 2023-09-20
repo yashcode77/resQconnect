@@ -15,7 +15,17 @@ const Navbar = () => {
         <ul className="cursor-pointer hover:text-red-400"><Link to="/contact">Contact us</Link></ul>
         <ul className="cursor-pointer hover:text-red-400"><Link to="/chat">Chat</Link></ul>
       </div>
-      <div>
+
+      <div className='flex gap-5'>
+        {/* <div className='bg-white rounded-md'>
+          <button className='text-black'>add alert</button>
+        </div> */}
+
+        <Link to="/addalert">
+          <div className='flex gap-2 cursor-pointer'>
+            <button className='bg-white text-black rounded-md'>Add alert</button>
+          </div>
+        </Link>
         <Link to="/profile">
           <div className='flex gap-2 cursor-pointer'>
             <img src={profile} className='w-6 h-6'/>

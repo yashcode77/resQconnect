@@ -13,6 +13,7 @@ import Profile from "./components/profile/Profile";
 import Newhome from "./components/Newhome";
 import Alerts from "./components/Alerts";
 import ChatBox from "./components/ChatBox";
+import Addalert from "./components/Addalert";
 
 const router = createBrowserRouter([
   {
@@ -58,8 +59,8 @@ const router = createBrowserRouter([
     element: <Signup />
   },
   {
-    path: '/newhome',
-    element: <Newhome />
+    path: '/addalert',
+    element: <Addalert />
   }
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));

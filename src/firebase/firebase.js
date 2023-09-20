@@ -23,5 +23,7 @@ const db = getFirestore(app);
 const storage = getStorage(app);
 
 export const agenciesRef = collection(db, "Rescue_Agencies");
+export const alertsRef = collection(db, "Alerts");
+
 
 export { auth, app, db, storage };
